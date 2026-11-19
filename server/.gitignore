@@ -5,4 +5,4 @@ dist/
 .env
 
 # Generated Prisma Client
-/generated/prisma/
+/src/generated/prisma/
