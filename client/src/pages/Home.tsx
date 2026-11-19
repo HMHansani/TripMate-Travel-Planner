@@ -47,7 +47,7 @@ function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative flex min-h-[600px] items-center bg-slate-900">
+      <section className="relative flex min-h-150 items-center bg-slate-900">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-50"
           style={{
@@ -56,7 +56,7 @@ function Home() {
           }}
         />
 
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 to-slate-900/20" />
+        <div className="absolute inset-0 bg-linear-to-r from-slate-950/80 to-slate-900/20" />
 
         <div className="relative mx-auto w-full max-w-7xl px-6 py-24">
           <div className="max-w-3xl">
